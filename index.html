@@ -6,7 +6,12 @@
 		<title>GG Casino</title>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="./assets/css/main.css" />
+		<link rel="manifest" href="manifest.json" />
 		<base target="_blank" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
 	</head>
 	<body>
 		<header class="header">
@@ -36,6 +41,7 @@
 					</div>
 					<ul class="best-games__games">
 						<li class="best-games__game">
+							<div class="best-games__line">BEST CASINO</div>
 							<img
 								class="best-games__game-logo"
 								src="./assets/images/basswin.webp"
@@ -549,16 +555,351 @@
 				</section>
 			</div>
 			<section class="about-site">
-				<div class="about-site__info">
-					<h1 class="about-site__title">Why Our Site is The Best Site</h1>
-					<p class="about-site__text"></p>
-				</div>
-				<div class="about-site__icons">
+				<div class="about-site__container">
+					<div class="about-site__left">
+						<h1 class="about-site__title">Why Our Site is The Best Site</h1>
+						<p class="about-site__text">
+							Finding a trusted source for casino offers can be challenging, but
+							our site is dedicated to bringing you only the very best in the
+							UK. Our team of experts constantly monitors the casino market to
+							select deals that offer real value, whether you’re interested in
+							welcome bonuses, free spins, or loyalty rewards. We don’t just
+							list offers; we evaluate and review each promotion carefully to
+							ensure it meets the highest standards of transparency, fairness,
+							and excitement for UK players. With us, you’ll always know which
+							casinos provide the most rewarding experience.
+						</p>
+						<h2 class="about-site__subtitle">Our Experience</h2>
+						<p class="about-site__text">
+							With years of industry expertise, our team knows exactly what to
+							look for when it comes to the best UK casino offers. Each member
+							of our team has a deep understanding of the online casino
+							landscape, from assessing bonuses and wagering requirements to
+							analyzing platform security and customer support. This experience
+							allows us to separate the standout casinos from the rest, bringing
+							you only top-tier recommendations that meet our high standards.
+						</p>
+					</div>
+					<div class="about-site__right">
+						<h1 class="about-site__title about-site__title--right">
+							Which Game is The Best?
+						</h1>
+						<div class="about-site__games">
+							<p class="about-site__game">
+								<img
+									class="about-site__icon"
+									src="./assets/images/icons/slots.svg"
+									alt="icon"
+								/>
+								Online Slots
+							</p>
+							<p class="about-site__game">
+								<img
+									class="about-site__icon"
+									src="./assets/images/icons/roulette.svg"
+									alt="icon"
+								/>
+								Online Roulette
+							</p>
+							<p class="about-site__game">
+								<img
+									class="about-site__icon"
+									src="./assets/images/icons/cards.svg"
+									alt="icon"
+								/>
+								Online Blackjack
+							</p>
+							<p class="about-site__game">
+								<img
+									class="about-site__icon"
+									src="./assets/images/icons/craps.svg"
+									alt="icon"
+								/>
+								Online Craps
+							</p>
+						</div>
+					</div>
 				</div>
 			</section>
-			<section class="about-secure"></section>
-			<section class="about-us"></section>
-			<section class="faq"></section>
+			<section class="faq">
+				<div class="faq__container">
+					<h1 class="faq__title">FAQ</h1>
+					<div class="faq__questions">
+						<div class="faq__question">
+							<div class="faq__question-head">
+								<h1 class="faq__question-title">
+									What types of games are available on the site?
+								</h1>
+								<img
+									src="./assets/images/icons/arrow-next.svg"
+									alt="open"
+									class="faq__question-btn"
+								/>
+							</div>
+							<div class="faq__question-body">
+								<p class="faq__question-text">
+									The site offers a variety of games, including slots, table
+									games (such as blackjack, roulette, and poker), as well as
+									live dealer games. You can also find progressive jackpot games
+									and video poker.
+								</p>
+							</div>
+						</div>
+						<div class="faq__question">
+							<div class="faq__question-head">
+								<h1 class="faq__question-title">
+									Are there any transaction fees?
+								</h1>
+								<img
+									src="./assets/images/icons/arrow-next.svg"
+									alt="open"
+									class="faq__question-btn"
+								/>
+							</div>
+							<div class="faq__question-body">
+								<p class="faq__question-text">
+									In most cases, the site does not charge fees for deposits, but
+									a small fee may be applied when withdrawing funds, depending
+									on the payment method used. Additionally, some banks or
+									payment providers may impose their own fees.
+								</p>
+							</div>
+						</div>
+						<div class="faq__question">
+							<div class="faq__question-head">
+								<h1 class="faq__question-title">
+									Is SSL encryption used on the site for secure transactions?
+								</h1>
+								<img
+									src="./assets/images/icons/arrow-next.svg"
+									alt="open"
+									class="faq__question-btn"
+								/>
+							</div>
+							<div class="faq__question-body">
+								<p class="faq__question-text">
+									Yes, the site uses SSL encryption to protect user data and
+									ensure the security of financial transactions. This prevents
+									the interception of sensitive information during data
+									transmission.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bg-fixed-img">
+				<section class="about-us">
+					<img
+						class="about-us__logo"
+						src="./assets/images/logo.svg"
+						alt="logo"
+					/>
+					<div class="about-us__info">
+						<h1 class="about-us__title">
+							Everything You Need to Know About Our Site
+						</h1>
+						<p class="about-us__text">
+							At GG Casino, we’re dedicated to helping UK players find the best
+							casino offers available, focusing on both value and quality. Our
+							team works tirelessly to handpick and showcase only the most
+							rewarding promotions from licensed UK casinos, ensuring that you
+							get access to secure, reputable offers without any hidden catches.
+							We know that finding a trustworthy casino can be challenging, so
+							we do the hard work for you by reviewing each offer in-depth and
+							highlighting those that truly stand out.
+						</p>
+						<h2 class="about-us__subtitle">
+							Committed to Safety and Satisfaction
+						</h2>
+						<p class="about-us__text">
+							Safety is a top priority at GG Casino. Every casino we recommend
+							holds a valid UK Gambling Commission license, which guarantees
+							fair play, secure transactions, and responsible gaming practices.
+							Our team meticulously examines each platform to ensure that it
+							meets strict industry standards for data security and customer
+							protection. We also break down the terms and conditions for each
+							offer, so you know exactly what to expect — no complicated fine
+							print or hidden fees. Your satisfaction and peace of mind are our
+							goals, and we’re here to help you find enjoyable, risk-free gaming
+							experiences.
+						</p>
+						<h2 class="about-us__subtitle">
+							Expert Recommendations for Every Player
+						</h2>
+						<p class="about-us__text">
+							Whether you’re a seasoned casino enthusiast or new to online
+							gaming, GG Casino provides curated offers to suit all types of
+							players. Our platform covers everything from no-deposit bonuses
+							and free spins to exclusive VIP rewards, allowing you to find the
+							deal that best matches your playing style. We keep our listings
+							updated with the latest bonuses and trends, so you’ll never miss
+							out on the UK’s top casino promotions. With GG Casino, you have a
+							reliable guide to explore, compare, and enjoy the finest offers
+							tailored just for you.
+						</p>
+					</div>
+				</section>
+				<section class="about-secure">
+					<div class="about-secure__container">
+						<h1 class="about-secure__title">About Secure</h1>
+						<div class="swiper about-secure__swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="about-secure__info-container">
+										<div class="about-secure__swiper-title-container">
+											<img src="" alt="" />
+											<h2 class="about-secure__swiper-title">
+												Ensuring a Secure Gaming Experience
+											</h2>
+										</div>
+										<p class="about-secure__swiper-text">
+											At YourFavSlots, we understand the importance of safety
+											and security when it comes to online gambling. That's why
+											we prioritize providing information about licensed and
+											regulated casinos that employ advanced encryption
+											technologies to protect your personal and financial data.
+										</p>
+										<p class="about-secure__swiper-text">
+											We also emphasize the significance of fair play and
+											responsible gaming. Our reviews include details on casinos
+											that offer features like self-exclusion options and
+											reality checks, helping players maintain control over
+											their gaming habits.А
+										</p>
+										<p class="about-secure__swiper-text">
+											Additionally, we encourage players to choose platforms
+											with robust customer support, ensuring that assistance is
+											readily available if any issues arise. By promoting secure
+											and trustworthy online gambling environments, we aim to
+											enhance your gaming experience while keeping your
+											interests protected.
+										</p>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="about-secure__info-container">
+										<div class="about-secure__swiper-title-container">
+											<img src="" alt="" />
+											<h2 class="about-secure__swiper-title">Secure Payment</h2>
+										</div>
+										<p class="about-secure__swiper-text">
+											When it comes to online gambling, secure payment methods
+											are essential for ensuring a safe and smooth gaming
+											experience. At YourFavSlots, we prioritize platforms that
+											offer a variety of reliable payment options, including
+											credit and debit cards, e-wallets, and bank transfers, all
+											designed to protect your financial information.
+										</p>
+										<p class="about-secure__swiper-text">
+											Using secure payment methods not only safeguards your
+											personal data but also allows for quick and efficient
+											transactions. Look for casinos that utilize encryption
+											technologies, such as SSL (Secure Socket Layer), to
+											protect your data during transactions. This means that
+											your sensitive information is encoded, making it virtually
+											impossible for unauthorized parties to access it.
+										</p>
+										<p class="about-secure__swiper-text">
+											Additionally, reputable online casinos provide transparent
+											information about their payment processes, including
+											deposit and withdrawal limits, processing times, and any
+											applicable fees. Always choose casinos that offer secure,
+											trusted payment methods and ensure that they comply with
+											industry standards for security and fraud prevention.
+										</p>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="about-secure__info-container">
+										<div class="about-secure__swiper-title-container">
+											<img src="" alt="" />
+											<h2 class="about-secure__swiper-title">
+												Fast And Optimized Games
+											</h2>
+										</div>
+										<p class="about-secure__swiper-text">
+											In today's gaming landscape, speed and optimization are
+											crucial for delivering an engaging experience. Players
+											expect instant load times, smooth graphics, and minimal
+											latency, prompting developers to prioritize these aspects
+											in their creations.
+										</p>
+										<p class="about-secure__swiper-text">
+											To achieve high performance, modern games leverage
+											technologies like SSDs for quicker loading times and
+											employ advanced coding techniques to enhance frame rates.
+											Graphics optimization plays a vital role as well, with
+											methods like Level of Detail (LOD) and dynamic lighting
+											ensuring visual appeal without compromising performance.
+										</p>
+										<p class="about-secure__swiper-text">
+											Adapting games for various platforms is essential, from
+											PCs to consoles and mobile devices. This involves
+											adjusting graphics settings, controls, and other features
+											to provide a seamless experience tailored to each
+											platform's capabilities.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="last-about">
+				<div class="last-about__container">
+					<div class="last-about__item">
+						<h1 class="last-about__title">
+							<img
+								class="last-about__img"
+								src="./assets/images/icons/money-bag.svg"
+								alt="img"
+							/>
+							Big Wins
+						</h1>
+						<p class="last-about__text">
+							At GG Casino, we bring you top offers with generous bonuses and
+							high-return games, giving you a real shot at major prizes. Enjoy
+							exciting chances to win big with fair terms and fast payouts!
+						</p>
+					</div>
+					<div class="last-about__item">
+						<h1 class="last-about__title">
+							<img
+								class="last-about__img"
+								src="./assets/images/icons/heart.svg"
+								alt="img"
+							/>
+							Favorite Entertainment
+						</h1>
+						<p class="last-about__text">
+							GG Casino connects you with top-quality casinos offering a range
+							of thrilling games, from slots to live dealer experiences. Find
+							your new favorite place to play with engaging and rewarding
+							entertainment.
+						</p>
+					</div>
+					<div class="last-about__item">
+						<h1 class="last-about__title">
+							<img
+								class="last-about__img"
+								src="./assets/images/icons/jackpot.svg"
+								alt="img"
+							/>
+							Regular Winnings
+						</h1>
+						<p class="last-about__text">
+							GG Casino selects casinos with fair odds and promotions to help
+							boost your chances of consistent wins. Enjoy steady rewards with
+							daily bonuses, cashback, and games designed for frequent payouts.
+						</p>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
