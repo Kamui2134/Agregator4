@@ -717,6 +717,9 @@
 	/* MAIN */
 	/* MAIN -> GAMES-DESCRIPTION */
 	/* MAIN -> BEST-GAMES */
+	.best-games__game-advantage:last-child {
+		display: none;
+	}
 	.best-games__game:first-child {
 		width: 80%;
 	}
@@ -731,9 +734,23 @@
 	.bg-img__imgs {
 		width: calc(100% + 600px);
 	}
+	.game-rating__star {
+		width: 15px;
+		height: 15px;
+	}
+	.game-rating__votes {
+		font-size: var(--fontSize-14);
+	}
+	.casino-link {
+		font-size: 14px;
+		/* font-weight: var(--weight-black); */
+	}
 	/* HEADER */
 	/* MAIN */
 	/* MAIN -> GAMES-DESCRIPTION */
+	.games-description {
+		gap: 5px;
+	}
 	.games-description__title {
 		font-size: var(--fontSize-24);
 	}
@@ -756,6 +773,25 @@
 	}
 	.best-games__game:first-child {
 		width: 100%;
+	}
+	.best-games__game {
+		gap: 6px;
+		padding: 10px;
+	}
+	.best-games__game-name {
+		font-size: var(--fontSize-20);
+	}
+	.best-games__game-text {
+		font-size: var(--fontSize-12);
+	}
+	.best-games__game-bonus {
+		font-size: var(--fontSize-16);
+	}
+	.best-games__game-advantages {
+		gap: 5px;
+	}
+	.best-games__game-advantage {
+		font-size: var(--fontSize-12);
 	}
 	/* MAIN -> GAMES */
 	/* MAIN -> ABOUT-SITE */
