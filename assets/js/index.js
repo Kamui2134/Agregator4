@@ -19,9 +19,9 @@ function fillBackground() {
 		bgImg2.classList.add('bg-img__item-img')
 		bgItem.classList.add('bg-img__item')
 
-		bgImg1.src = `./assets/images/bg.png`
+		bgImg1.src = `./assets/images/cards.png`
 		bgImg1.style.transform = `rotate(${getRandomRotation()}deg)`
-		bgImg2.src = `./assets/images/bg.png`
+		bgImg2.src = `./assets/images/cards.png`
 		bgImg2.style.transform = `rotate(${getRandomRotation()}deg)`
 
 		bgItem.appendChild(bgImg1)
