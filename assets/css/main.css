@@ -32,7 +32,7 @@
 	--color-gransino: #000000;
 	--color-cosmobet: #101113;
 	--color-goldenmister: #001553;
-	--color-boutyreels: #00013a;
+	--color-bountyreels: #00013a;
 	--color-luckymister: #000000;
 	--color-verywell: #000031;
 
@@ -314,7 +314,8 @@
 }
 .games__game-top {
 	width: 100%;
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 4fr 3fr;
 	padding: 12px;
 	gap: 20px;
 }
@@ -369,10 +370,13 @@
 	padding: 20px 0;
 }
 .games__game-security {
+	text-wrap: nowrap;
 	color: var(--color-green-1);
 }
 .games__game-payments {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	gap: 5px;
 }
 .games__game-payment {
@@ -722,6 +726,7 @@
 		grid-template-areas:
 			'logo logo'
 			'info button';
+			grid-template-columns: 1fr 1fr;
 	}
 	.games__game-logo-container {
 		flex-direction: row;
@@ -745,9 +750,6 @@
 	/* MAIN */
 	/* MAIN -> GAMES-DESCRIPTION */
 	/* MAIN -> BEST-GAMES */
-	.best-games__game-advantage:last-child {
-		display: none;
-	}
 	.best-games__game:first-child {
 		width: 80%;
 	}
@@ -969,11 +971,21 @@
 }
 @media (max-width: 420px) {
 	/* REUSED STYLES */
+	.game-rating__stars {
+		gap: 2px;
+	}
 	/* HEADER */
 	/* MAIN */
 	/* MAIN -> GAMES-DESCRIPTION */
 	/* MAIN -> BEST-GAMES */
 	/* MAIN -> GAMES */
+	.games__game-payment {
+		height: 24px;
+		width: 24px;
+	}
+	.games__game-logo-container {
+		gap: 5px;
+	}
 	/* MAIN -> ABOUT-SITE */
 	/* MAIN -> FAQ */
 	/* MAIN -> ABOUT-US */
