@@ -986,6 +986,9 @@
 	.games__game-logo-container {
 		gap: 5px;
 	}
+	.games__game-logo {
+		width: calc(100% - 10px - 80px);
+	}
 	/* MAIN -> ABOUT-SITE */
 	/* MAIN -> FAQ */
 	/* MAIN -> ABOUT-US */
