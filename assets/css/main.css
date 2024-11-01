@@ -174,9 +174,16 @@
 	text-align: center;
 }
 .games-description__subtitle {
+	display: flex;
+	align-items: center;
 	width: 100%;
+	gap: 5px;
 	color: var(--color-white);
 	font-size: var(--fontSize-32);
+}
+.games-description__icon {
+	width: 30px;
+	height: 30px;
 }
 .games-description__line {
 	width: 50%;
@@ -680,6 +687,9 @@
 	display: flex;
 	justify-content: space-between;
 }
+.footer__address {
+	color: var(--color-white);
+}
 
 /* MEDIA */
 @media (max-width: 1200px) {
@@ -946,6 +956,9 @@
 	.footer__companies {
 		height: 18px;
 		gap: 5px;
+	}
+	.footer__address {
+		font-size: var(--fontSize-14);
 	}
 	.copyright {
 		font-size: var(--fontSize-14);

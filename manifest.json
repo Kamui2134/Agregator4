@@ -1,7 +1,7 @@
 {
-	"name": "GG Casino",
-	"short_name": "GG Casino",
-	"description": "GG Casino with best offers for your experience",
+	"name": "Lucky10Collection",
+	"short_name": "Lucky10Collection",
+	"description": "Lucky10Collection is the best site for your gambling experience",
 	"start_url": "/",
 	"form_factor": ["small", "medium", "large"],
 	"display": "standalone",
