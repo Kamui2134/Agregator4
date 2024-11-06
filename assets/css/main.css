@@ -679,6 +679,9 @@
 	width: 100%;
 	height: 24px;
 }
+.footer__companies a {
+	height: 100%;
+}
 .footer__company {
 	height: 100%;
 }
